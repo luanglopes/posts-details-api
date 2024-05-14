@@ -1,0 +1,22 @@
+{
+  "name": "posts-api",
+  "version": "1.0.0",
+  "description": "Api to return details of posts",
+  "main": "src/main.js",
+  "type": "module",
+  "engines": {
+    "node": "^20"
+  },
+  "scripts": {
+    "start": "node src/main.js",
+    "dev": "nodemon src/main.js"
+  },
+  "author": "Luan Lopes <luanglopes@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
