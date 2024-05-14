@@ -1,4 +1,4 @@
-# Post Details API
+# Posts Details API
 
 This API provides an endpoint to fetch a paginate list of detailed posts. Every post in the list will contain its comments and its author. All information comes from https://jsonplaceholder.typicode.com endpoints.
 
@@ -22,7 +22,7 @@ The folder structure has three main folders:
 
   - This folder contains every implementation specific code that is used in the application but comes from an external dependency.
 
-Other folder are:
+Other folders are:
 
 #### `server`
   - Contains http server configuration and routes definitions
